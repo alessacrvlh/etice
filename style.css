@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  height: 6rem;
+
+  background-color: hsla(0, 0%, 55%, 0.185);
+
+  color: hsl(150, 69%, 40%);
+}
+
+header .logo {
+  margin-left: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  /*float: left;*/
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+header img {
+  margin-top: 0.5rem;
+  margin-bottom: -0.5rem;
+  width: 15rem;
+}
+.greatins {
+  margin-right: 2rem;
+  font-weight: 700;
+}
+
+
+body {
+  width: min(50rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: hsl(0, 13%, 95%);
+}
+.welcome {
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: hsl(150, 38%, 34%);
+}
+
+h2 {
+  background-color: hsla(0, 5%, 71%, 0.185);
+  font-size: 2rem;
+  color: hsl(150, 69%, 40%);
+  padding-bottom: 0.5rem;
+}
+body h3 {
+  background-color: hsl(0, 100%, 91%);
+  color: red;
+}
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project button {
+  font-family: 'Courier New', Courier, monospace;
+
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+
+  background-color: rgb(217, 230, 217);
+
+  border: none;
+  margin-right: 1rem;
+  margin-bottom: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+#project p {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: rgb(217, 230, 217);
+  filter: brightness(0.8);
+}
+footer {
+  margin-top: 0.5rem;
+  background-color: rgba(139, 139, 139, 0.185);
+  color: hsl(150, 69%, 40%);
+  font-weight: bold;
+}
